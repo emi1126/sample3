@@ -1,5 +1,5 @@
 (function () {
-  var config = window.siteConfig || {};
+  var config = (typeof siteConfig !== "undefined" ? siteConfig : window.siteConfig) || {};
   var purchaseUrl = typeof config.purchaseUrl === "string" ? config.purchaseUrl.trim() : "";
   var instagramUrl = config.instagramUrl || "https://www.instagram.com/white_muscat/";
   var hasPurchaseUrl = /^https?:\/\//i.test(purchaseUrl);
@@ -25,7 +25,7 @@
   var orderNote = document.getElementById("purchase-fallback-note");
   if (orderNote) {
     orderNote.textContent = hasPurchaseUrl
-      ? "購入ボタンから、販売ページへ進みます。"
+      ? "購入ボタンから、注文フォームが開きます。"
       : "購入ページのURLは確認中です。ボタンはInstagram（@white_muscat）を開きます。2026年7月22日の投稿では、DMでのご注文が案内されていました。";
   }
 

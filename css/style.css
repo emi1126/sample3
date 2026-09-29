@@ -355,8 +355,45 @@ h3 {
   object-position: center 62%;
 }
 
+.prose-center,
+.area-copy,
+.story-copy,
+.season .container {
+  width: min(100% - (var(--gutter) * 2), 700px);
+  margin-inline: auto;
+  text-align: center;
+}
+
+.care {
+  padding: 48px 0 8px;
+}
+
+.care-lead {
+  margin-bottom: 28px;
+  font-size: 1.125rem;
+}
+
+.care-point {
+  margin-top: 28px;
+}
+
+.care-point:first-of-type {
+  margin-top: 8px;
+}
+
+.care-index {
+  margin-bottom: 2px;
+  color: var(--color-green);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.care-point p:last-child {
+  margin-bottom: 0;
+}
+
 .area-copy {
-  padding-top: 18px;
+  padding-top: 20px;
 }
 
 .area-copy p:last-child {
@@ -367,8 +404,11 @@ h3 {
   padding: 52px 0 12px;
 }
 
-.story-copy {
-  max-width: 40rem;
+.story-copy h2,
+.area-copy h2,
+.season h2,
+.care h2 {
+  margin-bottom: 14px;
 }
 
 .story-copy p:last-child {
@@ -379,8 +419,16 @@ h3 {
   padding: 36px 0 8px;
 }
 
-.season .container {
-  max-width: 40rem;
+.faq > .container > h2 {
+  width: min(100% - (var(--gutter) * 2), 700px);
+  margin-inline: auto;
+  text-align: center;
+}
+
+.faq-list {
+  width: min(100%, 700px);
+  margin-inline: auto;
+  text-align: left;
 }
 
 .season p:last-child {

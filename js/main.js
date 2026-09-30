@@ -26,7 +26,7 @@
   if (orderNote) {
     orderNote.textContent = hasPurchaseUrl
       ? "購入ボタンから、注文フォームが開きます。"
-      : "購入ページのURLは確認中です。ボタンはInstagram（@white_muscat）を開きます。2026年7月22日の投稿では、DMでのご注文が案内されていました。";
+      : "ご注文はInstagramからご案内します。";
   }
 
   document.querySelectorAll(".faq-item").forEach(function (item) {

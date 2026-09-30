@@ -41,4 +41,48 @@
       panel.hidden = open;
     });
   });
+
+  var motionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+  var hero = document.querySelector(".hero");
+  var motionNodes = document.querySelectorAll(".reveal, .image-reveal");
+  function showMotion() {
+    if (hero) {
+      hero.classList.add("is-ready");
+    }
+    motionNodes.forEach(function (node) {
+      node.classList.add("is-visible");
+    });
+  }
+
+  if (motionQuery.matches || !("IntersectionObserver" in window)) {
+    showMotion();
+  } else {
+    if (hero) {
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () {
+          hero.classList.add("is-ready");
+        });
+      });
+    }
+
+    if (motionNodes.length) {
+      var observer = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (entry) {
+            if (!entry.isIntersecting) {
+              return;
+            }
+            entry.target.classList.add("is-visible");
+            observer.unobserve(entry.target);
+          });
+        },
+        { threshold: 0.01, rootMargin: "0px 0px 12% 0px" }
+      );
+      motionNodes.forEach(function (node) {
+        observer.observe(node);
+      });
+    }
+
+  }
+
 })();

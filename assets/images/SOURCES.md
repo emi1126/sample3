@@ -1,25 +1,27 @@
 # 写真の出典
 
-制作者向けの管理メモです。この内容はLPの本文には出していません。
+制作者向けの管理メモです。ページ本文には出していません。
 
-このLPの写真は、@white_muscat の出荷品そのものではありません。
-Instagramの見せ方（粒のアップ、黄緑色、房、畑）に合わせた素材写真です。
-実物の商品写真をもらったときは、同じファイル名で差し替えてください。
+いずれも架空ブランド「翠果」のイメージ用です。実在の農園の出荷品ではありません。
 
-価格（3房 約2kg 9,900円、2房 約1.3kg 7,700円、送料込み）は、2026年7月22日の投稿に基づきます。
-https://www.instagram.com/p/DbH3w6XTqwl/
+## ライセンス
 
-ライセンスはいずれも Pexels License（商用利用可、帰属表示は任意）です。
+- Unsplash License（商用利用可。帰属表示は任意）  
+  https://unsplash.com/license
+- Pexels License（商用利用可。帰属表示は任意）  
+  https://www.pexels.com/license/
 
-| ファイル | 使い方 | 撮影者 | 出典 |
-| --- | --- | --- | --- |
-| grape-01.jpg | ファーストビュー、2房 | Sóc Năng Động | https://www.pexels.com/photo/close-up-of-fresh-green-grapes-on-vine-37373004/ |
-| grape-02.jpg | こだわり、3房、最高糖度の横 | Sóc Năng Động | https://www.pexels.com/photo/fresh-green-grapes-hanging-on-vine-in-sunlight-37372974/ |
-| story.jpg | こだわり、産地の風景 | Christopher Politano | https://www.pexels.com/photo/a-vineyard-with-rows-of-vines-and-a-path-28384559/ |
+## 使用画像
 
-## フォルダにあるが、ページでは使っていない写真
+| ファイル | 使い方 | 撮影者 | ライセンス | 出典 |
+| --- | --- | --- | --- | --- |
+| hero-wide.webp / hero-tall.webp / product-premium.webp | ファーストビュー（横・縦）、プレミアム商品 | Bernd Dittrich | Unsplash License | https://unsplash.com/photos/a-close-up-of-a-bunch-of-green-grapes-l6sBLZr9mkQ |
+| gallery-vine.webp | ギャラリー（木になったぶどう） | Moritz Knöringer | Unsplash License | https://unsplash.com/photos/green-grapes-on-brown-tree-branch-during-daytime-3pyjQdnjfn8 |
+| philosophy.webp | ブランドストーリー | Bhaskar Bisht | Pexels License | https://www.pexels.com/photo/close-up-of-green-grapes-on-vine-in-vineyard-34988892/ |
+| commit-light.webp | こだわり 01 | DiVa 23 | Pexels License | https://www.pexels.com/photo/close-up-of-fresh-green-grapes-on-a-vine-35463130/ |
+| commit-dew.webp | こだわり 02、ギャラリー | Lisa from Pexels | Pexels License | https://www.pexels.com/photo/bundle-of-green-grape-1053914/ |
+| commit-table.webp | こだわり 03、ギャラリー | Cup of Couple | Pexels License | https://www.pexels.com/photo/green-grapes-on-white-table-7656758/ |
+| product-standard.webp | 商品 01、ギャラリー | Sylwester Ficek | Pexels License | https://www.pexels.com/photo/close-up-of-green-grapes-hanging-from-vine-39702032/ |
+| gift.webp / product-gift.webp | ギフト提案、ギフト商品 | Skyler Ewing | Pexels License | https://www.pexels.com/photo/green-grapes-on-brown-wooden-basket-9556561/ |
 
-| ファイル | メモ |
-| --- | --- |
-| gift.jpg | 撮影者 CUP OF COUPLE。白い台の上のぶどう。https://www.pexels.com/photo/bunch-of-green-grapes-on-white-table-7656768/ |
-| hero.jpg | 撮影者と出典URLを特定できなかったため、ページには載せていません。 |
+ギフト欄は、ライセンスを確認できた「ギフトボックス入りシャインマスカット」の写真が見つからなかったため、木の器に盛られた黄緑色のぶどう（Pexels / Skyler Ewing）を使用しています。
